@@ -1,3 +1,7 @@
+
+
+
+
 // Specific CSS for your home-page
 .primarycolor {
 
@@ -12,4 +16,91 @@
 .tertiarycolor {
 
   color:#C0C0BE;
+}
+
+.flex {
+
+  display: flex;
+  align-items : center;
+}
+
+
+.intro {
+    display: grid;
+    width: min-content;
+    margin: 0 auto;
+    grid-column-gap: 1em;
+    grid-template-areas:
+        "img title"
+        "img name"
+        "img subtitle";
+    grid-template-columns: min-content max-content;
+}
+
+.section__subtitle--intro {
+    align-self: start;
+    justify-self: start;
+    grid-area: subtitle;
+    position: relative;
+    font-family: roboto;
+    font-size: 3rem;
+
+}
+
+.name {
+
+    align-self: center;
+    justify-self: start;
+    grid-area: name;
+    font-family: oswald;
+    font-size: 6rem;
+}
+
+
+.title {
+
+    align-self: end;
+    justify-self: start;
+    grid-area: title;
+    font-family: 'Oswald';
+    font-size: 4rem;
+    margin-bottom: -20px;
+}
+
+.img {
+    align-self: start;
+    justify-self: start;
+    grid-area: img;
+    max-width: 300px;
+
+}
+
+.photodiv {
+
+  grid-area: img;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.skills {
+
+      text-align: center;
+}
+
+ .skillswrapper {
+
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.skillswrapper div {
+
+}
+
+
+.skillswrapper div img {
+    height: 150px;
+    width: 150px;
 }
