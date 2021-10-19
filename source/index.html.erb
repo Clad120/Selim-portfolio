@@ -1,42 +1,113 @@
 <div class="container">
-    <section class="intro">
-      <h1 class="title">Hi, I'm</h1>
-      <h1 class="name"> <strong>Selim Begag</strong></h1>
-      <p class="section__subtitle--intro">Front-end developer</p>
+    <section class="intro" data-aos-easing="ease" data-aos="fade-left" data-aos-duration="2000">
       <div class="photodiv">
        <%= image_tag 'photo.jpeg', :class => "img" %>
       </div>
+      <div class="titlediv">
+        <h1 class="title">Hi, I'm</h1>
+        <h1 class="name"> <strong>Selim Begag</strong></h1>
+        <p class="section__subtitle--intro">Front-end developer</p>
+      </div>
     </section>
     <section class="skills">
-      <h1>Skills</h1>
-    </section>
-          <div class="skillswrapper">
-       <div>
+      <div class="skillsbg"></div>
+      <h1 class="skillstitle">Skills</h1>
+      <div class="skillswrapper">
+       <div data-aos-easing="ease" data-aos-delay="0" data-aos="fade-down" data-aos-duration="500" data-aos-anchor-placement="top-center">
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" />
        </div>
-       <div>
+       <div data-aos-easing="ease" data-aos-delay="200" data-aos="fade-down" data-aos-duration="500" data-aos-anchor-placement="top-center">
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" />
        </div>
-       <div>
+       <div data-aos-easing="ease" data-aos-delay="400" data-aos="fade-down" data-aos-duration="500" data-aos-anchor-placement="top-center">
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
        </div>
-       <div>
+       <div data-aos-easing="ease" data-aos-delay="600" data-aos="fade-down" data-aos-duration="500" data-aos-anchor-placement="top-center">
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rails/rails-original-wordmark.svg" />
        </div>
-       <div>
+       <div data-aos-easing="ease" data-aos-delay="800" data-aos="fade-down" data-aos-duration="500" data-aos-anchor-placement="bottom-bottom">
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original-wordmark.svg" />
        </div>
-       <div>
+       <div data-aos-easing="ease" data-aos-delay="1000" data-aos="fade-down" data-aos-duration="500" data-aos-anchor-placement="bottom-bottom">
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" />
        </div>
-       <div>
+       <div data-aos-easing="ease" data-aos-delay="1200" data-aos="fade-down" data-aos-duration="500" data-aos-anchor-placement="bottom-bottom">
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original-wordmark.svg" />
        </div>
-       <div>
+       <div data-aos-easing="ease" data-aos-delay="1400" data-aos="fade-down" data-aos-duration="500" data-aos-anchor-placement="bottom-bottom">
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-plain-wordmark.svg" />
        </div>
-       <div>
+       <div data-aos-easing="ease" data-aos-delay="1600" data-aos="fade-down" data-aos-duration="500" data-aos-anchor-placement="top-bottom">
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg" />
        </div>
       </div>
+    </section>
+
+        <section class="skills">
+          <div class="skillsbg2"></div>
+          <div class="intro2">
+          <div class="aboutmetext">
+            <h1 class="aboutmetitle">About me</h1>
+            <div class="jobdiv">
+             <h1 data-aos-easing="ease" data-aos-delay="0" data-aos="fade-right" data-aos-duration="500" data-aos-anchor-placement="top-center">Front-End Developer</h1>
+            </div>
+            <p class="aboutmedesc"data-aos-easing="ease" data-aos-delay="0" data-aos="fade-right" data-aos-duration="500" data-aos-anchor-placement="top-center">Hi, I am Selim Begag. I am an aspiring full stack developer. Current front-end developer from France living in Japan. I spend my time on personal projects and learning more about HTML, CSS and JavaScript. I am interested in remote work as well as freelance work. If you have an idea for a website or want to upgrade your current website contact me and we can discuss your options.</p>
+          </div>
+          <div data-aos-easing="ease" data-aos-delay="0" data-aos="fade-left" data-aos-duration="500" data-aos-anchor-placement="top-center">
+            <div class="photodiv2">
+             <%= image_tag 'photo.jpeg', :class => "imgaboutme" %>
+            </div>
+          </div>
+          </div>
+       </section>
+
+    <section class="skills">
+      <div class="skillsbg3"></div>
+      <h1 class="skillstitle">Projects</h1>
+      <div class="skillswrapper2">
+          <a target="_blank" href="https://pettoren.herokuapp.com/">
+           <div class="pet-card filter" style="background-position: center;background-size: cover;background-image: url('https://i.ibb.co/rsxxXJb/Screenshot-2021-09-06-at-21-55-24.png');" data-aos-easing="ease" data-aos-delay="0" data-aos="flip-down" data-aos-duration="500" data-aos-anchor-placement="top-center">
+            <div class="blur">
+              <div class="pet-info-wrapper">
+                <div class="pet-info">
+                  <h4>Pettoren</h4>
+                  <p>AirBnb clone</p>
+                </div>
+                <div class="pet-distance">
+                    <p>A simple AirBnb clone for renting pets</p>
+                </div>
+              </div>
+             </div>
+            </div>
+          </a>
+          <a target="_blank" href="https://aprooft.herokuapp.com/">
+            <div class="pet-card filter" style="background-position: center;background-size: cover;background-image: url('https://i.ibb.co/fH91qG1/Screenshot-2021-09-06-at-22-00-46.png');" data-aos-easing="ease" data-aos-delay="200" data-aos="flip-down" data-aos-duration="500" data-aos-anchor-placement="top-center">
+             <div class="blur">
+              <div class="pet-info-wrapper">
+                <div class="pet-info">
+                  <h4>Aprooft</h4>
+                  <p>customizable widget</p>
+                </div>
+                <div class="pet-distance">
+                    <p>promote products through social medias</p>
+                </div>
+              </div>
+             </div>
+            </div>
+          </a>
+            <div class="pet-card filter" style="background-position: center;background-size: cover;background-image: url('https://i.ibb.co/rZ8sHz0/Screenshot-2021-10-18-at-12-29-29.png');" data-aos-easing="ease" data-aos-delay="400" data-aos="flip-down" data-aos-duration="500" data-aos-anchor-placement="top-center">
+             <div class="blur">
+              <div class="pet-info-wrapper">
+                <div class="pet-info">
+                  <h4>coming soon</h4>
+                  <p>point & click game</p>
+                </div>
+                <div class="pet-distance">
+                    <p>adventure game set in feudal Japan</p>
+                </div>
+              </div>
+             </div>
+            </div>
+      </div>
+    </section>
 </div>

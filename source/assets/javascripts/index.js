@@ -1,5 +1,13 @@
 import 'bootstrap';
 import AOS from 'aos';
 
-AOS.init();
-AOS.refresh();
+if (document.getElementById("animate")) {
+
+new Typed('#animate', {
+    strings: ["coder", "web-dev", "Front-End developer"],
+    typeSpeed: 50,
+    loop: true
+  });
+}
+
+ AOS.init();
