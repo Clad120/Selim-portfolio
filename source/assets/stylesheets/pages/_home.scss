@@ -137,6 +137,7 @@ padding: 0px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 30px;
+    margin-bottom: 192px;
 }
 
 .skillswrapper div {
@@ -158,6 +159,7 @@ margin: 10px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 60px;
+    margin-bottom: 192px;
 }
 
 
@@ -166,7 +168,7 @@ margin: 10px;
 
     background-color: #D0826F;
     width: 400%;
-    height: 123%;
+    height: 146%;
     position: absolute;
     z-index: -1;
     left: -136px;
@@ -178,7 +180,35 @@ margin: 10px;
 
 background-color: #3B4357;
     width: 400%;
-    height: 153%;
+    height: 136%;
+    position: absolute;
+    z-index: -1;
+    left: -136px;
+    transform: rotate(
+-5deg
+);
+    top: -250px;
+}
+
+
+.skillsbg3 {
+
+
+    background-color: #c0c0be;
+    width: 400%;
+    height: 176%;
+    position: absolute;
+    z-index: -1;
+    left: -136px;
+    transform: rotate(4deg);
+}
+
+.skillsbg4 {
+
+
+background-color: #D0826F;
+    width: 400%;
+    height: 157%;
     position: absolute;
     z-index: -1;
     left: -136px;
@@ -188,18 +218,6 @@ background-color: #3B4357;
     top: -219px;
 }
 
-
-.skillsbg3 {
-
-
-    background-color: #c0c0be;
-    width: 400%;
-    height: 123%;
-    position: absolute;
-    z-index: -1;
-    left: -136px;
-    transform: rotate(4deg);
-}
 
 
 .aboutmetext {
@@ -379,4 +397,74 @@ box-shadow: 0 8px 16px rgba(0,0,0,0.3);
   transition: 0.5s ease-out;
   opacity: 1;
  }
+}
+
+
+.contactsubtitle {
+    color: white;
+    font-family: roboto;
+    font-size: 2rem;
+}
+
+.enveloppe {
+
+  color: white;
+  font-size: 1.6rem;
+}
+
+.mail {
+
+  color: white;
+  font-size: 1.6rem;
+}
+
+a:hover {
+  color: grey;
+}
+
+.social-list {
+
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 2em 0 0;
+    padding: 0;
+}
+
+.social-list__item {
+    margin: 0 0.5em;
+}
+
+
+.social-list__link {
+
+  color: white;
+  font-size: 3rem;
+}
+
+.social-text {
+
+  color: white;
+}
+
+.githubicon {
+
+      margin-left: 18px;
+}
+
+.footer {
+  background: #3B4357;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  padding: 0px 50px;
+  color: rgba(0,0,0,0.3);
+  margin-top: 12%;
+}
+
+.footer-copyright {
+
+    color: white;
+    font-size: 1.5rem;
 }
