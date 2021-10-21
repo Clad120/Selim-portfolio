@@ -10,4 +10,4 @@ new Typed('#animate', {
   });
 }
 
- AOS.init();
+ AOS.init({disable: 'mobile'});
