@@ -18,6 +18,11 @@
   color:#C0C0BE;
 }
 
+
+html {
+  scroll-behavior: smooth;
+}
+
 .flex {
 
   display: flex;
@@ -29,6 +34,19 @@
 max-width: 100%;
 padding: 0px;
 
+}
+
+.navbar-lewagon {
+  justify-content: space-between;
+  background: #F4F4F4;
+}
+
+.navbar-lewagon .navbar-collapse {
+  flex-grow: 0;
+}
+
+.navbar-lewagon .navbar-brand img {
+  width: 40px;
 }
 
 
@@ -62,6 +80,37 @@ padding: 0px;
 
     margin-bottom: 192px;
 }
+
+.skillswrapper2 {
+
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 192px;
+}
+
+.pet-card {
+  display: flex;
+  align-items: flex-end;
+  width: 320px;
+  height: 200px;
+  border-radius: 5px;
+  color: #fffafa;
+  overflow: hidden;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  max-height: 500px;
+  margin: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  & img {
+    max-width: 500px;
+  }
+  & h4 {
+    margin-bottom: 0;
+    font-weight: bold;
+  }
+}
+
 
 
 @media (min-width: 800px) {
@@ -112,6 +161,41 @@ padding: 0px;
     margin-bottom: 192px;
     margin-top: 0px;
 }
+
+
+.skillswrapper2 {
+
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 60px;
+    margin-bottom: 192px;
+}
+
+
+.pet-card {
+  display: flex;
+  align-items: flex-end;
+  width: 320px;
+  height: 200px;
+  border-radius: 5px;
+  color: #fffafa;
+  overflow: hidden;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  max-height: 500px;
+  margin: 20px;
+  & img {
+    max-width: 500px;
+  }
+  & h4 {
+    margin-bottom: 0;
+    font-weight: bold;
+  }
+}
+
+
 
 }
 
@@ -211,16 +295,7 @@ margin: 10px;
     width: 150px;
 }
 
-.skillswrapper2 {
 
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 60px;
-    margin-bottom: 192px;
-}
 
 
 .skillsbg {
@@ -329,25 +404,6 @@ background-color: #D0826F;
 
 
 
-.pet-card {
-  display: flex;
-  align-items: flex-end;
-  width: 320px;
-  height: 200px;
-  border-radius: 5px;
-  color: #fffafa;
-  overflow: hidden;
-  box-shadow: 0 0 15px rgba(0,0,0,0.2);
-  max-height: 500px;
-  margin: 20px;
-  & img {
-    max-width: 500px;
-  }
-  & h4 {
-    margin-bottom: 0;
-    font-weight: bold;
-  }
-}
 
 .container a {
   text-decoration: none;
