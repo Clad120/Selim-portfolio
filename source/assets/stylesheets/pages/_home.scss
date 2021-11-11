@@ -76,6 +76,31 @@ padding: 0px;
 }
 
 
+ .skillswrapper {
+
+    display: grid;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 220px;
+    grid-template-areas:
+        's1 s2 s3'
+        's4 s5 s6'
+        's7 s8 s9';
+}
+
+.skillswrapper div {
+
+margin: 10%;
+}
+
+
+.skillswrapper div img {
+    width: 100%;
+}
+
+
 .intro2 {
 
     margin-bottom: 192px;
@@ -184,27 +209,7 @@ padding: 0px;
     font-size: 4rem;
     font-weight: 600;
 }
- .skillswrapper {
 
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 800px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 30px;
-    margin-bottom: 192px;
-}
-
-.skillswrapper div {
-
-margin: 10px;
-}
-
-
-.skillswrapper div img {
-    height: 150px;
-    width: 150px;
-}
 
 
 
@@ -254,14 +259,14 @@ background-color: #3B4357;
 
 background-color: #D0826F;
     width: 400%;
-    height: 157%;
+    height: 133%;
     position: absolute;
     z-index: -1;
     left: -136px;
     transform: rotate(
 -5deg
 );
-    top: -219px;
+    top: -117px;
 }
 
 .aboutmetext {
@@ -591,7 +596,27 @@ a:hover {
   padding-top: 32px;
 }
 
+ .skillswrapper {
 
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 30px;
+    margin-bottom: 192px;
+}
+
+.skillswrapper div {
+
+margin: 10px;
+}
+
+
+.skillswrapper div img {
+    height: 150px;
+    width: 150px;
+}
 
 .photodiv {
 
