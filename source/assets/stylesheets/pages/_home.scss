@@ -392,34 +392,9 @@ background-color: #D0826F;
 
 }
 
+
+
 .filter {
-
- filter: grayscale(60%);
-
- & h4 {
-  opacity: 0;
-
- }
-
- & p {
-
-  opacity: 0;
-
- }
-
- & i {
-
-
- }
-
- & div {
-
-  opacity: 0;
- }
-
-}
-
-.filter:hover {
 animation: layout 0.2s linear;
 filter: grayscale(0%);
 transition: 0.2s ease-out;
@@ -678,6 +653,63 @@ margin: 10px;
   }
 }
 
+.filter {
+
+ filter: grayscale(60%);
+
+ & h4 {
+  opacity: 0;
+
+ }
+
+ & p {
+
+  opacity: 0;
+
+ }
+
+ & i {
+
+
+ }
+
+ & div {
+
+  opacity: 0;
+ }
+
+}
+
+.filter:hover {
+animation: layout 0.2s linear;
+filter: grayscale(0%);
+transition: 0.2s ease-out;
+transform: translateY(-8px);
+box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+ & h4 {
+  color: black;
+  transition: 0.5s ease-out;
+  opacity: 1;
+ }
+
+ & p {
+  color: black;
+  transition: 0.5s ease-out;
+  opacity: 1;
+
+ }
+
+  & i {
+
+
+ }
+
+ & div {
+  transition: 0.5s ease-out;
+  opacity: 1;
+ }
+}
+
 
 
 }
@@ -698,5 +730,11 @@ margin: 10px;
 .project3 {
 
       background-image: image-url("../images/vn.jpeg")
+
+}
+
+.project4 {
+
+      background-image: image-url("../images/Japondemande.jpeg")
 
 }
